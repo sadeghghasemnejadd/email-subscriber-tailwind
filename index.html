@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style-tail.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-slate-600 min-h-screen flex justify-center items-center">
+    <div class="bg-slate-900 w-128 h-64 rounded-lg p-1 flex gap-16">
+      <img
+        src="./src/images/image.jpg"
+        alt="image"
+        class="h-full rounded-tl-lg rounded-bl-lg cursor-pointer scale-95 hover:scale-100 transition-all hover:rounded-lg"
+      />
+      <div class="text-white flex flex-col justify-evenly basis-1/2">
+        <h1 class="text-lg font-bold">
+          Get diet and fitness tips in your inbox
+        </h1>
+        <p class="text-sm">
+          Eat better and exercise better. Sign up for the Diet&Fitness
+          newsletter.
+        </p>
+        <form class="flex gap-4">
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="p-3 bg-transparent border border-1 border-slate-500 text-xs w-52"
+          />
+          <button
+            type="submit"
+            class="bg-green-400 p-3 rounded-lg text-slate-800 hover:bg-green-800 hover:text-slate-200 transition-all duration-500"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
